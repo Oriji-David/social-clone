@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube clone</title>
+    <link rel="stylesheet" href="styles/video.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/sidebar.css" />
+  </head>
+  <body>
+    <div class="header-part">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg" alt="menu" />
+        <img
+          class="youtube-logo"
+          src="icons/youtube-logo.svg"
+          alt="youtube-logo"
+        />
+      </div>
+
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search" />
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg" alt="search" />
+          <div class="tooltips">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img
+            class="voice-search-icon"
+            src="icons/voice-search-icon.svg"
+            alt="voice-search"
+          />
+          <div class="tooltips">Voice search</div>
+        </button>
+      </div>
+
+      <div class="right-section">
+        <img class="upload-icon" src="icons/upload.svg" alt="upload button" />
+        <img
+          class="youtube-apps"
+          src="icons/youtube-apps.svg"
+          alt="Youtube apps"
+        />
+        <div class="notification-space">
+          <img
+            class="notification-bell"
+            src="icons/notifications.svg"
+            alt="notifications"
+          />
+          <div class="notifcations-count">3</div>
+        </div>
+
+        <img
+          class="current-user"
+          src="images/my-channel.jpeg"
+          alt="profile-pic"
+        />
+      </div>
+    </div>
+
+    <div class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/home svg.svg" alt="home" />
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/explore svg.svg" alt="explore" />
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscriptions svg.svg" alt="subs" />
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img
+          class="sidebar-icon"
+          src="icons/originals svg.svg"
+          alt="originals"
+        />
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img
+          class="sidebar-icon"
+          src="icons/youtube-music svg.svg"
+          alt="music"
+        />
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img class="sidebar-icon" src="icons/library svg.svg" alt="library" />
+        <div>Library</div>
+      </div>
+    </div>
+
+    <!--IMPLEMENTATION OF CSS GRID DOWN BELOW-->
+    <div class="video-grid">
+      <!--THE DIV CAN BE USED TO MAKE BASIC TEMPLATES IN WEB SITES-->
+      <div class="div-video-preview">
+        <div class="THUMBNAIL-ROW">
+          <img
+            class="thumbnail"
+            src="/HTML 14 YouTube/images/FIND ME 002.jpg"
+            alt="yo"
+          />
+          <div class="video-time">14:20</div>
+        </div>
+
+        <!--BEHOLD A NESTED LAYOUT TECHNIQUE SAMPLE-->
+        <div class="video-info-grid">
+          <div class="THE-PROFILE-PICTURE">
+            <img
+              class="profile-pic"
+              src="/HTML 14 YouTube/images/download.jpeg"
+              alt=""
+            />
+          </div>
+
+          <div class="VIDEO-INFO">
+            <p class="video-title">
+              Talking Tech and AI with Google CEO Sundar Pichai!
+            </p>
+            <p class="video-stats">
+              3.4m views &#183;<!--the code for the middle DOT-->
+              6 months ago
+            </p>
+            <p class="video-creator">
+              Marquees Brownlee &#10003;
+              <!--special code for checkmark-->
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--the div element is very special in html-->
+
+      <div class="div-video-preview">
+        <div class="THUMBNAIL-ROW">
+          <img
+            class="thumbnail"
+            src="/HTML 14 YouTube/images/FIND ME 002.jpg"
+            alt="yo"
+          />
+          <div class="video-time">8:57</div>
+        </div>
+
+        <div class="video-info-grid">
+          <div class="THE-PROFILE-PICTURE">
+            <img
+              class="profile-pic"
+              src="/HTML 14 YouTube/images/download.jpeg"
+              alt=""
+            />
+          </div>
+
+          <div class="VIDEO-INFO">
+            <p class="video-title">
+              Missionary Work: Giving food to 10,000 people!
+            </p>
+            <p class="video-stats">
+              24m views &#183;<!--the code for the middle DOT-->
+              3 years ago
+            </p>
+            <p class="video-creator">
+              Helpers for the World &#10003;
+              <!--special code for checkmark-->
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--THE DIV CAN BE USED TO MAKE BASIC TEMPLATES IN WEB SITES-->
+      <div class="div-video-preview">
+        <div class="THUMBNAIL-ROW">
+          <img
+            class="thumbnail"
+            src="/HTML 14 YouTube/images/FIND ME 002.jpg"
+            alt="yo"
+          />
+          <div class="video-time">31:17</div>
+        </div>
+
+        <!--BEHOLD A NESTED LAYOUT TECHNIQUE SAMPLE-->
+        <div class="video-info-grid">
+          <div class="THE-PROFILE-PICTURE">
+            <img
+              class="profile-pic"
+              src="/HTML 14 YouTube/images/download.jpeg"
+              alt="yo"
+            />
+          </div>
+
+          <div class="VIDEO-INFO">
+            <p class="video-title">
+              I SURVIVED 100 DAYS IN THE WILD!!! *NOT CLICKBAIT*
+            </p>
+            <p class="video-stats">
+              5.9m views &#183;<!--the code for the middle DOT-->
+              3 weeks ago
+            </p>
+            <p class="video-creator">
+              SB737 &#10003;
+              <!--special code for checkmark-->
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--the div element is very special in html-->
+
+      <div class="div-video-preview">
+        <div class="THUMBNAIL-ROW">
+          <img
+            class="thumbnail"
+            src="/HTML 14 YouTube/images/FIND ME 002.jpg"
+            alt="yo"
+          />
+          <div class="video-time">28:45</div>
+        </div>
+
+        <div class="video-info-grid">
+          <div class="THE-PROFILE-PICTURE">
+            <img
+              class="profile-pic"
+              src="/HTML 14 YouTube/images/download.jpeg"
+              alt=""
+            />
+          </div>
+
+          <div class="VIDEO-INFO">
+            <p class="video-title">
+              Google is DANGEROUSLY bigger than you know! Here's why...
+            </p>
+            <p class="video-stats">
+              10m views &#183;<!--the code for the middle DOT-->
+              1 year ago
+            </p>
+            <p class="video-creator">
+              Moon &#10003;
+              <!--special code for checkmark-->
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="div-video-preview">
+        <div class="THUMBNAIL-ROW">
+          <img
+            class="thumbnail"
+            src="/HTML 14 YouTube/images/FIND ME 002.jpg"
+            alt="yo"
+          />
+          <div class="video-time">15:00</div>
+        </div>
+
+        <!--BEHOLD A NESTED LAYOUT TECHNIQUE SAMPLE-->
+        <div class="video-info-grid">
+          <div class="THE-PROFILE-PICTURE">
+            <img
+              class="profile-pic"
+              src="/HTML 14 YouTube/images/download.jpeg"
+              alt=""
+            />
+          </div>
+
+          <div class="VIDEO-INFO">
+            <p class="video-title">How to pet a Horse the RIGHT way!</p>
+            <p class="video-stats">
+              30m views &#183;<!--the code for the middle DOT-->
+              4 years ago
+            </p>
+            <p class="video-creator">
+              Alaska Animal Rescue Center &#10003;
+              <!--special code for checkmark-->
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--the div element is very special in html-->
+
+      <div class="div-video-preview">
+        <div class="THUMBNAIL-ROW">
+          <img
+            class="thumbnail"
+            src="/HTML 14 YouTube/images/FIND ME 002.jpg"
+            alt="yo"
+          />
+          <div class="video-time">5:29</div>
+        </div>
+
+        <div class="video-info-grid">
+          <div class="THE-PROFILE-PICTURE">
+            <img
+              class="profile-pic"
+              src="/HTML 14 YouTube/images/polygon-720x1280-4k-hd-wallpaper-3d-241.jpg"
+              alt=""
+            />
+          </div>
+
+          <div class="VIDEO-INFO">
+            <p class="video-title">What I wanna be when I grow up...</p>
+            <p class="video-stats">
+              14m views &#183;<!--the code for the middle DOT-->
+              8 days ago
+            </p>
+            <p class="video-creator">
+              Technoblade &#10003;
+              <!--special code for checkmark-->
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
